@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Python Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero reveal" data-delay="0s">
+      <p class="hero__name">Владимир</p>
+      <h1>Создаю Telegram-ботов, автоматизацию и backend-решения на Python.</h1>
+      <p class="hero__lead">
+        Специализация: разработка Telegram-ботов, парсинг данных, автоматизация рутинных процессов
+        и небольшие внутренние сервисы под конкретные задачи.
+      </p>
+      <a class="hero__action" href="#contacts">Связаться</a>
+    </header>
+
+    <main>
+      <section class="section reveal" id="skills" data-delay="0.05s">
+        <div class="section__head">
+          <p class="section__label">Навыки</p>
+          <h2>Чем занимаюсь</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card reveal" data-delay="0.08s">
+            <span class="skill-card__index">01</span>
+            <h3>Python</h3>
+            <p>Пишу чистый, расширяемый код для сервисов, скриптов, API и внутренних инструментов.</p>
+          </article>
+          <article class="skill-card reveal" data-delay="0.14s">
+            <span class="skill-card__index">02</span>
+            <h3>Telegram боты</h3>
+            <p>Разрабатываю ботов с командами, уведомлениями, оплатой, админ-функциями и интеграциями.</p>
+          </article>
+          <article class="skill-card reveal" data-delay="0.2s">
+            <span class="skill-card__index">03</span>
+            <h3>Парсинг</h3>
+            <p>Собираю, очищаю и структурирую данные с сайтов, API и закрытых внутренних источников.</p>
+          </article>
+          <article class="skill-card reveal" data-delay="0.26s">
+            <span class="skill-card__index">04</span>
+            <h3>Автоматизация</h3>
+            <p>Убираю ручную рутину с помощью скриптов, фоновых задач, отчётов и рабочих интеграций.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="projects" data-delay="0.05s">
+        <div class="section__head">
+          <p class="section__label">Проекты</p>
+          <h2>Что уже собрано в коде</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card reveal" data-delay="0.08s">
+            <div class="project-card__top">
+              <span class="project-card__index">01</span>
+              <h3>IdeaHunter</h3>
+            </div>
+            <p>
+              Telegram-бот мониторит Hacker News и Reddit, прогоняет идеи через LLM-скоринг и
+              отправляет автоматическую рассылку с отобранными находками.
+            </p>
+            <div class="project-card__bar"><span style="width: 92%"></span></div>
+            <div class="tag-list">
+              <span>Python</span>
+              <span>aiogram</span>
+              <span>LLM</span>
+              <span>APScheduler</span>
+              <span>SQLite</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-delay="0.14s">
+            <div class="project-card__top">
+              <span class="project-card__index">02</span>
+              <h3>Парсер новостей</h3>
+            </div>
+            <p>
+              Desktop-приложение на CustomTkinter, которое парсит отраслевые сайты, собирает новости
+              в единую ленту и упрощает ручной мониторинг источников.
+            </p>
+            <div class="project-card__bar"><span style="width: 86%"></span></div>
+            <div class="tag-list">
+              <span>Python</span>
+              <span>CustomTkinter</span>
+              <span>BeautifulSoup</span>
+              <span>Requests</span>
+              <span>Pandas</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-delay="0.2s">
+            <div class="project-card__top">
+              <span class="project-card__index">03</span>
+              <h3>Голосовой ассистент</h3>
+            </div>
+            <p>
+              Локальный голосовой ассистент на Python с STT/TTS, SQLite и обработкой речи без
+              зависимости от облачных сервисов для базовых сценариев офлайн-управления.
+            </p>
+            <div class="project-card__bar"><span style="width: 88%"></span></div>
+            <div class="tag-list">
+              <span>Python</span>
+              <span>STT</span>
+              <span>TTS</span>
+              <span>SQLite</span>
+              <span>Local AI</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--compact reveal" id="contacts" data-delay="0.05s">
+        <div class="section__head">
+          <p class="section__label">Контакты</p>
+          <h2>Открыт к проектам и сотрудничеству</h2>
+        </div>
+        <div class="contacts-card reveal" data-delay="0.12s">
+          <a href="https://t.me/Vovachelovek" target="_blank" rel="noreferrer">
+            <span>Telegram</span>
+            <strong>@Vovachelovek</strong>
+          </a>
+          <a href="https://kwork.ru/user/vladimir_da_" target="_blank" rel="noreferrer">
+            <span>Kwork</span>
+            <strong>kwork.ru/user/vladimir_da_</strong>
+          </a>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
