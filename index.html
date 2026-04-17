@@ -3,158 +3,174 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Python Developer Portfolio</title>
+  <title>Владимир — Python-разработчик. Telegram-боты, парсинг, автоматизация</title>
+  <meta name="description" content="Разрабатываю Telegram-ботов, парсеры и автоматизацию на Python. Код в открытых репозиториях, поддержка после сдачи.">
+  <meta name="theme-color" content="#0b0d12">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Владимир — Python-разработчик">
+  <meta property="og:description" content="Telegram-боты, парсинг, автоматизация, AI-интеграции. Python под ключ.">
+  <meta property="og:url" content="https://hryndev.github.io/">
+  <meta property="og:locale" content="ru_RU">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Владимир — Python-разработчик">
+  <meta name="twitter:description" content="Telegram-боты, парсинг, автоматизация на Python.">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b0d12'/%3E%3Ctext x='50%25' y='56%25' font-family='Segoe UI,sans-serif' font-size='36' font-weight='700' text-anchor='middle' fill='%237dd3a7'%3EV%3C/text%3E%3C/svg%3E">
+
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="page-shell">
     <header class="hero reveal" data-delay="0s">
       <p class="hero__name">Владимир</p>
-      <h1>Создаю Telegram-ботов, автоматизацию и backend-решения на Python.</h1>
+      <h1>Python-разработчик. Делаю Telegram-ботов и автоматизацию под ключ.</h1>
       <p class="hero__lead">
-        Специализация: разработка Telegram-ботов, парсинг данных, автоматизация рутинных процессов
-        и небольшие внутренние сервисы под конкретные задачи.
+        Боты с оплатой и базой знаний, парсеры, аналитика, интеграции с LLM.
+        От брифа до прода за несколько дней. Код открыт, поддержка после сдачи.
       </p>
-      <a class="hero__action" href="#contacts">Связаться</a>
+      <div class="hero__actions">
+        <a class="hero__action hero__action--primary" href="https://t.me/Vovachelovek" target="_blank" rel="noreferrer">Написать в Telegram</a>
+        <a class="hero__action" href="#projects">Смотреть работы</a>
+      </div>
     </header>
 
     <main>
-      <section class="section reveal" id="skills" data-delay="0.05s">
+      <section class="section reveal" id="services" data-delay="0.05s">
         <div class="section__head">
-          <p class="section__label">Навыки</p>
-          <h2>Чем занимаюсь</h2>
+          <p class="section__label">Услуги</p>
+          <h2>Что делаю</h2>
         </div>
-        <div class="skills-grid">
+        <div class="services-grid">
           <article class="skill-card reveal" data-delay="0.08s">
             <span class="skill-card__index">01</span>
-            <h3>Python</h3>
-            <p>Пишу чистый, расширяемый код для сервисов, скриптов, API и внутренних инструментов.</p>
+            <h3>Telegram-боты</h3>
+            <p>Боты с LLM-ответами, оплатой, подписками, админкой, интеграцией с вашими системами. aiogram 3, SQLite/Postgres, Docker.</p>
           </article>
           <article class="skill-card reveal" data-delay="0.14s">
             <span class="skill-card__index">02</span>
-            <h3>Telegram боты</h3>
-            <p>Разрабатываю ботов с командами, уведомлениями, оплатой, админ-функциями и интеграциями.</p>
+            <h3>Парсинг и данные</h3>
+            <p>Сбор и структурирование данных с сайтов, API, закрытых источников. Регулярные выгрузки, уведомления, выгрузка в Excel/БД.</p>
           </article>
           <article class="skill-card reveal" data-delay="0.2s">
             <span class="skill-card__index">03</span>
-            <h3>Парсинг</h3>
-            <p>Собираю, очищаю и структурирую данные с сайтов, API и закрытых внутренних источников.</p>
+            <h3>Автоматизация</h3>
+            <p>Убираю ручную рутину: отчёты, рассылки, обработку файлов, внутренние инструменты. Скрипты, фоновые задачи, дашборды.</p>
           </article>
           <article class="skill-card reveal" data-delay="0.26s">
             <span class="skill-card__index">04</span>
-            <h3>Автоматизация</h3>
-            <p>Убираю ручную рутину с помощью скриптов, фоновых задач, отчётов и рабочих интеграций.</p>
-          </article>
-          <article class="skill-card reveal" data-delay="0.32s">
-            <span class="skill-card__index">05</span>
-            <h3>AI интеграции</h3>
-            <p>Подключаю LLM (OpenAI, DeepSeek, Groq, Ollama) к ботам и сервисам. RAG на ChromaDB, векторный поиск по документам.</p>
+            <h3>AI-интеграции</h3>
+            <p>Подключаю LLM (OpenAI, DeepSeek, Groq, Ollama) к ботам и сервисам. RAG по документам, векторный поиск, классификация.</p>
           </article>
         </div>
       </section>
 
       <section class="section reveal" id="projects" data-delay="0.05s">
         <div class="section__head">
-          <p class="section__label">Проекты</p>
-          <h2>Что уже собрано в коде</h2>
+          <p class="section__label">Работы</p>
+          <h2>Примеры проектов</h2>
         </div>
         <div class="projects-grid">
           <article class="project-card reveal" data-delay="0.08s">
             <div class="project-card__top">
               <span class="project-card__index">01</span>
-              <h3>IdeaHunter</h3>
+              <h3>AI Assistant Bot</h3>
             </div>
             <p>
-              Telegram-бот мониторит Hacker News и Reddit, прогоняет идеи через LLM-скоринг и
-              отправляет автоматическую рассылку с отобранными находками.
+              Telegram-бот отвечает на вопросы клиентов по базе знаний компании.
+              Загружаете TXT/PDF/DOCX — бот знает всё про ваш бизнес. Работает с любым LLM.
             </p>
-            <div class="project-card__bar"><span style="width: 92%"></span></div>
             <div class="tag-list">
-              <span>Python</span>
-              <span>aiogram</span>
-              <span>LLM</span>
-              <span>APScheduler</span>
-              <span>SQLite</span>
+              <span>aiogram 3</span>
+              <span>ChromaDB</span>
+              <span>RAG</span>
+              <span>Docker</span>
             </div>
+            <a class="project-card__link" href="https://github.com/HRYNdev/AIAssistantBot" target="_blank" rel="noreferrer">Код на GitHub →</a>
           </article>
 
           <article class="project-card reveal" data-delay="0.14s">
             <div class="project-card__top">
               <span class="project-card__index">02</span>
-              <h3>Парсер новостей</h3>
+              <h3>Subscription Bot</h3>
             </div>
             <p>
-              Desktop-приложение на CustomTkinter, которое парсит отраслевые сайты, собирает новости
-              в единую ленту и упрощает ручной мониторинг источников.
+              Бот с платными подписками: оплата через Robokassa и Telegram Stars.
+              Три тарифа, напоминания об истечении, закрытый контент, админка.
             </p>
-            <div class="project-card__bar"><span style="width: 86%"></span></div>
             <div class="tag-list">
-              <span>Python</span>
-              <span>CustomTkinter</span>
-              <span>BeautifulSoup</span>
-              <span>Requests</span>
-              <span>Pandas</span>
+              <span>aiogram 3</span>
+              <span>Robokassa</span>
+              <span>Telegram Stars</span>
+              <span>SQLite</span>
             </div>
+            <a class="project-card__link" href="https://github.com/HRYNdev/SubscriptionBot" target="_blank" rel="noreferrer">Код на GitHub →</a>
           </article>
 
           <article class="project-card reveal" data-delay="0.2s">
             <div class="project-card__top">
               <span class="project-card__index">03</span>
-              <h3>AI Assistant Bot</h3>
+              <h3>HabitBot</h3>
             </div>
             <p>
-              Telegram-бот отвечает на вопросы клиентов на основе базы знаний компании. Подключи
-              TXT/PDF/DOCX — бот знает всё про твой бизнес. Работает с любым LLM-провайдером.
+              Трекер привычек с утренними напоминаниями по таймзоне пользователя
+              и еженедельными отчётами. FSM-онбординг, миграции, планировщик.
             </p>
-            <div class="project-card__bar"><span style="width: 90%"></span></div>
             <div class="tag-list">
-              <span>Python</span>
-              <span>aiogram</span>
-              <span>ChromaDB</span>
-              <span>RAG</span>
-              <span>OpenAI API</span>
+              <span>aiogram 3</span>
+              <span>PostgreSQL</span>
+              <span>Alembic</span>
+              <span>APScheduler</span>
             </div>
-            <a class="project-card__link" href="https://github.com/HRYNdev/AIAssistantBot" target="_blank" rel="noreferrer">GitHub →</a>
+            <a class="project-card__link" href="https://github.com/HRYNdev/HabitBot" target="_blank" rel="noreferrer">Код на GitHub →</a>
           </article>
 
           <article class="project-card reveal" data-delay="0.26s">
             <div class="project-card__top">
               <span class="project-card__index">04</span>
-              <h3>Subscription Bot</h3>
-            </div>
-            <p>
-              Telegram-бот с платными подписками: Robokassa и Telegram Stars. Три тарифа,
-              автопродление, напоминания об истечении, контент только для подписчиков.
-            </p>
-            <div class="project-card__bar"><span style="width: 87%"></span></div>
-            <div class="tag-list">
-              <span>Python</span>
-              <span>aiogram</span>
-              <span>Robokassa</span>
-              <span>Telegram Stars</span>
-              <span>SQLite</span>
-            </div>
-            <a class="project-card__link" href="https://github.com/HRYNdev/SubscriptionBot" target="_blank" rel="noreferrer">GitHub →</a>
-          </article>
-
-          <article class="project-card reveal" data-delay="0.32s">
-            <div class="project-card__top">
-              <span class="project-card__index">05</span>
               <h3>VetAnalytics</h3>
             </div>
             <p>
-              Аналитический дашборд для ветеринарных аптек: топ продаж, дефицит, риск просрочки,
-              неликвид, оборачиваемость и автоматические рекомендации закупки. Работает с выгрузками 1С.
+              Дашборд для ветеринарных аптек: топ продаж, дефицит, риск просрочки,
+              неликвид, оборачиваемость, рекомендации по закупкам. Работает с выгрузками 1С.
             </p>
-            <div class="project-card__bar"><span style="width: 84%"></span></div>
             <div class="tag-list">
-              <span>Python</span>
               <span>Streamlit</span>
-              <span>Pandas</span>
+              <span>pandas</span>
               <span>Plotly</span>
               <span>1С</span>
             </div>
-            <a class="project-card__link" href="https://github.com/HRYNdev/VetAnalytics" target="_blank" rel="noreferrer">GitHub →</a>
+            <a class="project-card__link" href="https://github.com/HRYNdev/VetAnalytics" target="_blank" rel="noreferrer">Код на GitHub →</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="process" data-delay="0.05s">
+        <div class="section__head">
+          <p class="section__label">Процесс</p>
+          <h2>Как работаю</h2>
+        </div>
+        <div class="process-grid">
+          <article class="skill-card reveal" data-delay="0.08s">
+            <span class="skill-card__index">01</span>
+            <h3>Обсуждаем задачу</h3>
+            <p>Пишите в Telegram — бесплатно разберём что нужно, предложу решение и назову срок с ценой.</p>
+          </article>
+          <article class="skill-card reveal" data-delay="0.14s">
+            <span class="skill-card__index">02</span>
+            <h3>Показываю прототип</h3>
+            <p>Собираю рабочий минимум, чтобы было что потыкать. Правим пока не устроит.</p>
+          </article>
+          <article class="skill-card reveal" data-delay="0.2s">
+            <span class="skill-card__index">03</span>
+            <h3>Разработка и сдача</h3>
+            <p>Дорабатываю до готового, тестирую, разворачиваю на вашем сервере или на моём. Передаю код и доступы.</p>
+          </article>
+          <article class="skill-card reveal" data-delay="0.26s">
+            <span class="skill-card__index">04</span>
+            <h3>Поддержка</h3>
+            <p>14 дней правок после сдачи бесплатно. Дальше — по запросу.</p>
           </article>
         </div>
       </section>

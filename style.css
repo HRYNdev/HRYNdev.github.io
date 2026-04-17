@@ -111,20 +111,38 @@ a {
   color: var(--muted);
 }
 
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 10px;
+}
+
 .hero__action {
   width: fit-content;
-  margin-top: 10px;
   padding: 14px 22px;
   border: 1px solid rgba(125, 211, 167, 0.3);
   border-radius: 999px;
-  background: var(--accent-soft);
+  background: rgba(255, 255, 255, 0.02);
   transition: transform 220ms ease, border-color 220ms ease, background 220ms ease;
+  font-weight: 500;
 }
 
 .hero__action:hover {
   transform: translateY(-2px);
   border-color: rgba(125, 211, 167, 0.6);
-  background: rgba(125, 211, 167, 0.2);
+  background: rgba(125, 211, 167, 0.12);
+}
+
+.hero__action--primary {
+  background: var(--accent-soft);
+  border-color: rgba(125, 211, 167, 0.5);
+  color: #f2f4f8;
+}
+
+.hero__action--primary:hover {
+  background: rgba(125, 211, 167, 0.28);
+  border-color: rgba(125, 211, 167, 0.8);
 }
 
 main {
@@ -152,17 +170,21 @@ main {
 }
 
 .skills-grid,
-.projects-grid {
+.projects-grid,
+.services-grid,
+.process-grid {
   display: grid;
   gap: 18px;
 }
 
-.skills-grid {
+.skills-grid,
+.services-grid,
+.process-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .projects-grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .skill-card,
@@ -364,7 +386,9 @@ main {
     padding: 56px 22px;
   }
 
-  .skills-grid {
+  .skills-grid,
+  .services-grid,
+  .process-grid {
     grid-template-columns: 1fr;
   }
 
