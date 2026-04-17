@@ -171,15 +171,13 @@ main {
 
 .skills-grid,
 .projects-grid,
-.services-grid,
-.process-grid {
+.services-grid {
   display: grid;
   gap: 18px;
 }
 
 .skills-grid,
-.services-grid,
-.process-grid {
+.services-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
@@ -232,11 +230,10 @@ main {
 }
 
 .skill-card {
-  padding: 24px;
-  min-height: 220px;
+  padding: 22px;
   display: grid;
   align-content: start;
-  gap: 18px;
+  gap: 14px;
 }
 
 .project-card {
@@ -387,8 +384,7 @@ main {
   }
 
   .skills-grid,
-  .services-grid,
-  .process-grid {
+  .services-grid {
     grid-template-columns: 1fr;
   }
 
